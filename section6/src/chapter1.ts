@@ -8,7 +8,7 @@ const employee = {
     console.log("work!");
   },
 };
-
+console
 // name; 함수 만들때 매개변수에 타입이 정의되어있지 읺을때 발생하는 에러와 동일함
 // => 추론할 수 있는 정보가 없을때 에러발생!
 // error: name: string; 했을때
