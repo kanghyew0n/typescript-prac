@@ -33,7 +33,7 @@ class Employee {
   }
 }
 
-class ExecuctiveOfficer extends Employee {
+class ExecutiveOfficer extends Employee {
   // 필드
   officeNumber: number;
 
