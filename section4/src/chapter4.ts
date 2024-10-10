@@ -18,7 +18,7 @@ function isDog(animal: Animal): animal is Dog {
 }
 
 function isCat(animal: Animal): animal is Cat {
-  return (animal as Cat).isScratch   !== undefined; // 타입 단언 사용해주기
+  return (animal as Cat).isScratch !== undefined; // 타입 단언 사용해주기
 }
 
 function warning(animal: Animal) {
