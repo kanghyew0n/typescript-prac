@@ -8,7 +8,8 @@ const employee = {
     console.log("work!");
   },
 };
-console
+
+
 // name; 함수 만들때 매개변수에 타입이 정의되어있지 읺을때 발생하는 에러와 동일함
 // => 추론할 수 있는 정보가 없을때 에러발생!
 // error: name: string; 했을때
@@ -51,7 +52,7 @@ class ExecutiveOfficer extends Employee {
 const employeeB = new Employee("rkdrrkak", 26, "개발자");
 employeeB.work();
 
-//타입스크립트의 클래스는 타입으로도 활용할 수 있음
+// 타입스크립트의 클래스는 타입으로도 활용할 수 있음
 // 이유는 타입스크립트는 구조적으로 타입을 결정하기때문에 클래스의 구조를 보고 타입 결정이 가능
 const employeeC: Employee = {
   name: "",

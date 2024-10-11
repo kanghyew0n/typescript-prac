@@ -14,7 +14,7 @@ class Character implements CharacterInterface {
   constructor(
     public name: string,
     public moveSpeed: number,
-    // private extra: string => private 필요하면 따로 정의하기
+    // private extra: string //=> private 필요하면 따로 정의하기
   ) {}
   move() {
     console.log(`move! ${this.name} : ${this.moveSpeed}km`);
